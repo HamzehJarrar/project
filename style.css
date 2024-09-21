@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f0f0f0;
+  font-family: "Work Sans";
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  background-color: black;
+  width: 1200px;
+  box-sizing: border-box;
+  padding: 50px;
+  color: #ffffff;
+  border-radius: 20px;
+}
+.header a:hover {
+  color: orange;
+  transition: 0.5s;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+.About {
+  position: relative;
+  background-color: #fff;
+  height: 50vh;
+  border-radius: 20px;
+  padding: 20px;
+}
+.Taskmangment {
+  position: absolute;
+  top: 35%;
+  width: 300px;
+  background-color: purple;
+  padding: 20px;
+  color: white;
+  border-radius: 20px;
+}
+.logo {
+  position: absolute;
+  right: 0px;
+}
+
+.skills {
+  background: url(1.jpg);
+  background-size: cover;
+  color: white;
+  width: 100%;
+  padding: 30px;
+  border-radius: 20px;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+span {
+  display: flex;
+  padding: 15px 30px;
+  border-radius: 8px;
+  color: #fff;
+  background: purple;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+span:hover {
+  transform: translate(20px, -20px);
+  width: 180px;
+  color: #fff;
+  background: green;
+  border-color: black;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+.projects {
+  background-color: #fff;
+  padding: 20px;
+  width: 100%;
+  border-radius: 20px;
+}
+.port1 {
+  background-color: purple;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  color: #fff;
+}
+.port2 {
+  background-color: purple;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  color: #fff;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 70vh;
+  gap: 10px;
+  color: #fff;
+  background-image: url(1.jpg);
+  background-size: cover;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.submit-button {
+  display: flex;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: purple;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.submit-button:hover {
+  background-color: rgb(95, 0, 95);
+}
+
+footer {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+footer a {
+  color: orange;
+}
+input,
+textarea {
+  background-color: #fff;
+  height: 40px;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+footer input:focus {
+  color: rgb(0, 255, 255);
+  outline-color: orange;
+  box-shadow: -3px -3px 15px orange;
+  transition: 0.1s;
+  transition-property: box-shadow;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.back-to-top:hover {
+  background-color: purple;
+  transition: 0.3s;
+}
